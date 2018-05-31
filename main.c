@@ -28,10 +28,7 @@ void printArray(Profesor ____ , int _____);
 
 
 void main(){
-	Profesor arr1[20];  //Primer arreglo
-	Profesor arr2[20];  //Segundo arreglo
-	Profesor arrF[40];  //Arreglo final, con elementos fusionados y ordenados
-Profesor arr1[20], *apu;  
+        Profesor arr1[20], *apu;  
 	Profesor arr2[20];  
 	Profesor arrF[40]; 
 	*apu = &arr1;
@@ -39,7 +36,7 @@ Profesor arr1[20], *apu;
   puts("¿Cuantos profesores se van agregar? \n");
   scanf(" %d \n", &n1);
   readArray(&arr1, *apu, n1);
-readArray(______________); //leer el segundo arreglo 
+readArray(______________); 
 mergeArrays(_______________________________);  //Fusionar los dos arreglos en un tercer arreglo
 
 sortArray(_____________);  //Ordenar los elementos del tercer arreglo, recuerde que pueden 
